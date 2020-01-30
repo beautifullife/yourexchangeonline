@@ -1,0 +1,13 @@
+{
+    "name": "beautifullife/recaptcha",
+    "description": "reCaptcha plugin for cakephp 3.x",
+    "require": {
+        "google/recaptcha": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Dung Nguyen",
+            "email": "dung1582002@yahoo.com"
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+Description link: https://github.com/maxmind/MaxMind-DB-Reader-php
+Step 1: Install via composer that cakephp can autoload library
+Step 2: Use it in component

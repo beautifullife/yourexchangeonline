@@ -1,0 +1,28 @@
+{
+    "name": "dungnguyen/GoogleLogin",
+    "description": "GoogleLogin plugin for CakePHP",
+    "license": "Apache-2.0",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4.16"
+    },
+    "require-dev": {
+        "silex/silex": "1.0.*@dev",
+        "twig/twig": ">=1.8,<2.0-dev",
+        "google/apiclient": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GoogleLogin\\": "src"
+        }             
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GoogleLogin\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        },
+        "classmap": [
+                        "src/"
+                    ]  
+    }
+}
